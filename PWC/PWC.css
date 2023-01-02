@@ -1,0 +1,43 @@
+body{
+background: black;
+font-family: sans-serif;
+}
+
+#map {
+  height: 800px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.searching{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#address{
+  margin-top: 20px;
+  width: 150px;
+  border-radius: 20px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+#search-btn{
+  margin-top: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+}
+
+#search-btn:hover{
+  background: #FFCCCB;
+  transition: 0.7s;
+}
+
+h3{
+  text-align: center;
+  color: white;
+}
